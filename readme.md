@@ -1,0 +1,1 @@
+Pure NodeJS server to translate a JSON object keys to the different language using google translate api.
