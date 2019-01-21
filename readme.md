@@ -1,4 +1,4 @@
-Pure NodeJS server to translate a JSON object keys to the different language using google translate api.
+Pure NodeJS server to translate a JSON object values to the different language using google translate api.
 
 Example Request JSON:
 ```sh
@@ -10,3 +10,15 @@ Example Request JSON:
 	}
 }
 ```
+
+Example Response JSON:
+```sh
+{
+  "thanks":"Gracias",
+  "goodbye": "Adiós"
+}
+```
+
+[Link](https://cloud.google.com/translate/docs/languages) for supported Languages and Codes.
+
+**You have to export google cloud service account json path to GOOGLE_APPLICATION_CREDENTIALS env variable.**

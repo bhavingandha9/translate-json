@@ -1,0 +1,23 @@
+{
+  "name": "translate-json",
+  "version": "1.0.0",
+  "description": "Pure NodeJS server to translate a JSON object keys to the different language using google translate api.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhavingandha9/translate-json.git"
+  },
+  "keywords": [],
+  "author": "bhavin <bhavin.g@yudiz.in>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhavingandha9/translate-json/issues"
+  },
+  "homepage": "https://github.com/bhavingandha9/translate-json#readme",
+  "dependencies": {
+    "@google-cloud/translate": "^2.1.3"
+  }
+}
