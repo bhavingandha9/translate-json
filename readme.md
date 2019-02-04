@@ -7,7 +7,8 @@ Example Request JSON:
 	"data": {
 		"thanks":"thank you",
 		"goodbye": "Good Bye"
-	}
+	},
+  "resUnflat": true
 }
 ```
 
@@ -20,5 +21,7 @@ Example Response JSON:
 ```
 
 [Link](https://cloud.google.com/translate/docs/languages) for supported Languages and Codes.
+
+Give resUnflat to true if response need as unflatten object
 
 **You have to export google cloud service account json path to GOOGLE_APPLICATION_CREDENTIALS env variable.**
