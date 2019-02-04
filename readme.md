@@ -3,11 +3,11 @@ Pure NodeJS server to translate a JSON object values to the different language u
 Example Request JSON:
 ```sh
 {
-	"countryCode":"ES",
-	"data": {
-		"thanks":"thank you",
-		"goodbye": "Good Bye"
-	},
+  "countryCode": "ES",
+    "data": {
+    "thanks": "thank you",
+      "goodbye": "Good Bye"
+  },
   "resUnflat": true
 }
 ```
